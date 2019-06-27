@@ -5,7 +5,6 @@ class MarkdownToHtmlPlugin {
   constructor (options) {
     this.input = options.input
     this.output = options.output
-
     this.converter = new showdown.Converter()
   }
 
