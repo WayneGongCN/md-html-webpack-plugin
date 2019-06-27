@@ -1,13 +1,18 @@
 {
   "name": "md-html-webpack-plugin",
   "version": "1.0.0",
+  "keywords": ["webpack", "plugin", "markdown", "html"],
   "description": "A webpack plugin used to convert md to html.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "zowiegong",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zowiegong/md-html-webpack-plugin"
+  },
   "dependencies": {
     "showdown": "^1.9.0"
   }
